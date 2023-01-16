@@ -1,0 +1,330 @@
+
+HTML 5 Concept
+------------------------------------------------------------------------
+
+HTML :- Hyper Text Markup Language.
+
+
+Resources from where you can get help
+{
+	MDN HTML,W3SCHOOL,DEVDOCS.IO,UNICODE-TABLE.COM
+}
+
+
+For online practise we can do
+{
+	Codepen.io   website
+}
+
+
+HTML :- is the hypertext markup language which is used for as fronted technologies
+
+
+Tags-Attributes
+
+<tag size="3">
+  ^    ^
+  |    |---> html attributes
+ html
+ tags
+
+for commenting we use this syntax
+
+<!-- _______________________-->
+
+
+
+<!DOCTYPE html>    ->The declaration is not an HTML tag. It is an
+                    "information" to the browser about what document
+                     type to expect.
+
+
+Basic syntax of Html
+
+!DOCTYPE html>
+<html>
+    <head>
+        <!--Title will show on the tab on the url-->
+        <title>HTML Revison Time</title>
+    </head>
+    <!--Tags-->
+    <body>
+        
+    </body>
+</html>
+
+
+<tags> elements 
+
+<html> ----ensure you are writing a html  type page
+<head> ----consists all the title and style and link inside
+<body> ----the tags where every code of the page are there
+
+
+Now for writing contents
+
+	<h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 2</h4>
+        <h5>Heading 2</h5>
+        <h6>Heading 2</h6>
+
+	<p> paragraph tag
+<p>I am Mujassam taukir khan</p>
+
+
+<center> --> move everything to the center
+
+	<!--br tags it will shift to the next line-->
+        <p>Hello <br> Mujassam</p>
+
+<img> to display the images
+
+
+	 !--image tag-->
+        <img src="" height="" width="">
+
+
+<video> to display the videos
+<source src="link for the video" type="video/mp4">
+
+<!----------->
+video synatx
+
+	<video heigth="200px" width="300px" controls>
+            <source src="first.mp4" type="video/mp4">
+        </video>
+
+
+<em> empher tagbto display the text in ittlaic natute
+
+
+<strong> used for bold text
+
+<--List>
+
+are two types
+
+1- Unordered List
+
+no numbering in the list or alphabetical only bullets/dots are there
+
+<ul>  unordered list
+
+Basic Synatx
+
+	<ul>
+            <li>List one</li>
+            <li>List two</li>
+        </ul>
+
+2- Ordered List
+
+it consists of type
+
+Attributes are
+
+Reversed,start,type{1,A,a,I,i}
+
+Basic Syantx
+
+        <!--Ordered List-->
+        <ol type="A" reversed>
+            <li>List one</li>
+            <li>List two</li>
+        </ol>
+
+
+<Iframe> --> An inline frame is used to embed another document within the current HTML document.
+
+Attribute
+-allow
+-height
+-loading
+-name
+-allowfullscreen
+
+
+
+<pre> if you will give more than one spaces then it will count and display
+
+for example:-
+
+syntax
+<pre><p>hello      h </p></pre>
+
+
+<q> --> Quatation tag
+
+syantx
+
+<q>Quation Tag</q> "Quation Tag"
+
+<<<---Address Tag--->>>
+
+<Address>  ---> The <address> tag defines the contact information for the author/owner of a document or an article.
+Syntax
+ <address>Hello</address>
+
+<<<---blockquote--->>>
+
+<blockquote> it will show the content is from other source
+syntax
+
+<blockquote cite="#">General Info</blockquote>
+
+<<<--- Ancor Tag --->>>
+
+<a href="www.google.com">Ancor Tag used for link</a>
+Attributes
+Target="_blank","_self","_parent"
+
+Basic Syntax
+<!--Ancor Tag with target attributes and black will open in another tab-->
+        <a href="www.html.com" target="_blank">Click for Html</a>
+
+        <!--it will open the link in the same tab-->
+        <a href="www.html.com" target="_parent">Click for Html</a>
+
+        <!--it will open the link in the-->
+        <a href="www.html.com" target="_self">Click for Html</a>
+
+
+<<<---Table--->>>
+
+<for making table>
+
+basic three tag are there
+<table>  for table making
+<th>	for table header making
+<tr>	for table row making
+<td>	for table data making
+
+Basic Syntax
+
+	<table>
+            <tr>
+                <th>Table</th>
+            </tr>
+            <tr>
+                <td>Row 2</td>
+                <td>Row 2 Data</td>
+            </tr>
+        </table>
+
+<<<---Form Tag--->>>
+Basically it used for html form
+
+The <form> element can contain one or more of the following form elements:
+
+<input>
+<textarea>
+<button>
+<select>
+<option>
+<optgroup>
+<fieldset>
+<label>
+<output>
+
+
+Attributes are
+
+method
+name
+target
+
+basic syntax
+
+	<form>
+            <label for="Tag">Form Tag</label>
+            <input type="text">
+            <!--select will give the dropdown-->
+            <select>
+                <option>1</option>
+                <option>1</option>
+                <option>1</option>
+            </select>
+        </form>
+
+
+<<<---select tag--->>>
+
+<select> used for select 
+inner tags<option>
+
+basic syntax
+
+	   <select>
+                <option>1</option>
+                <option>1</option>
+                <option>1</option>
+            </select>
+
+
+
+<<<---Div tag--->>>
+<div> used for dividng the screen
+
+basic syntax
+
+<div></div>
+
+<<<---span tag--->>>
+<span>span tag</span>
+used same as divison but colum will till the text
+
+
+HTML 5
+
+BASIC DESIGN OF THE WEBPAGE
+
+1>HEADER
+2>NAVBAR
+3>ASIDE,SECTION,ARTICLE
+4>FOOTER
+__________________
+|header		 |
+|----------------|-> <Nav>
+|----------------|
+|aside	|section |
+|	|--------|
+|	|article |
+------------------
+|____footer______|
+
+
+THE MOST IMPORTNAT ATTRIBUTES
+
+CLASS,ID---> TO SELECT THE IDENTITY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
